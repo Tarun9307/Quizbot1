@@ -3,8 +3,8 @@ import re
 from telethon import TelegramClient, events
 
 # === Telegram API Credentials ===
-API_ID = 29905812
-API_HASH = '4aaf29577ba468c9eff93b623bbe8dae'
+API_ID = 28853790
+API_HASH = 'c210bf562588336c29e98f8669d96ff7'
 SESSION_NAME = 'session'
 
 # === Target Group to Monitor ===
@@ -49,3 +49,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
