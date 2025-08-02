@@ -8,7 +8,7 @@ API_HASH = 'c210bf562588336c29e98f8669d96ff7'
 SESSION_NAME = 'session'
 
 # === Target Group to Monitor ===
-TARGET_GROUP = 'Netflixcartels_discussion'  # Use only the group username (no @ or link)
+TARGET_GROUP = 'quiz007'  # Use only the group username (no @ or link)
 
 # === Initialize Client ===
 client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
@@ -49,4 +49,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
 
