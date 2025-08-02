@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = [
+  "python312",
+  "python312Packages.telethon"
+]
+
+[phases.build]
+cmds = ["echo 'Dependencies handled by nixPkgs'"]
+
+[start]
+cmd = "python3.12 main.py"
